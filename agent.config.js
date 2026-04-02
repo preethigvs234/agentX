@@ -14,7 +14,7 @@ const agentConfig = {
 
   // ─── BASIC INFO ───────────────────────────────────────────────
   // Your agent's name and branding (shown in the header & title)
-  name: "AgentX",
+  name: "AgentX1",
   emoji: "🤖",
   tagline: "Your AI Conversation Buddy",
   description: "I remember everything about you and get smarter the more we talk.",
