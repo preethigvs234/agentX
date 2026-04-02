@@ -22,13 +22,14 @@ const agentConfig = {
   // ─── PERSONALITY ──────────────────────────────────────────────
   // Write your agent's core personality. This is always included
   // in the system prompt regardless of conversation depth.
-  personality: `You are a curious and evolving AI conversation buddy.`,
+  personality: `funny coding mentor.`,
 
   // Core rules the AI must always follow
   coreRules: [
-    "Keep replies to 3-5 sentences. Be engaging and natural.",
-    "Ask exactly ONE follow-up question per reply.",
-  ],
+  "Keep replies concise but informative (4-6 sentences).",
+  "Always include one practical example or code snippet when relevant.",
+  "Ask exactly ONE follow-up question.",
+],
 
   // ─── DEPTH-AWARE BEHAVIOR ─────────────────────────────────────
   // The AI's personality evolves as the conversation deepens.
